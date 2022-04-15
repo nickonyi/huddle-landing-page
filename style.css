@@ -11,6 +11,7 @@ body {
 
 .wrapper {
     background-image: url("./images/bg-hero-desktop.svg");
+    background-color: hsl(193, 100%, 96%);
     padding: 40px;
 }
 
@@ -40,7 +41,7 @@ body {
     font-weight: 700;
     color: hsl(192, 100%, 9%);
     border: none;
-    box-shadow: 2px 2px 2px 2px rgb(0, 37, 46, 0.3);
+    box-shadow: 2px 2px 2px 2px rgb(0, 37, 46, 0.05);
 }
 
 
@@ -75,6 +76,41 @@ body {
     color: hsl(0, 0%, 100%);
     background-color: hsl(322, 100%, 66%);
     border: none;
+}
+
+
+/*----------------container styling---------------------------*/
+
+.container {
+    padding: 100px 50px 200px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.container .container-1-content {
+    align-self: center;
+}
+
+.box {
+    border: 1px solid black;
+}
+
+.container-1 {
+    display: flex;
+    padding: 50px;
+    padding-left: 100px;
+    gap: 200px;
+}
+
+.container-1-content-img {
+    width: 300px;
+    height: auto;
+}
+
+.container-text-1 {
+    margin-top: 20px;
 }
 
 .attribution {
