@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    background-image: url("./images/bg-hero-desktop.svg");
+    padding: 40px;
+}
+
+
+/*----------------Header styling---------------------------*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.btn-header {
+    position: relative;
+    right: 120px;
+}
+
+.logo-img {
+    height: auto;
+    width: 200px;
+}
+
+.btn-header {
+    padding: 10px 40px 10px 40px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
+    border: none;
+    box-shadow: 2px 2px 2px 2px rgb(0, 37, 46, 0.3);
+}
+
+
+/*----------------wrapper content styling---------------------------*/
+
+.wrapper-content {
+    display: flex;
+    padding: 40px;
+    gap: 60px;
+}
+
+.wrapper-mockup-img {
+    width: 600px;
+    height: auto;
+}
+
+.wrapper-content-header {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+}
+
+.wrapper-content-text {
+    margin-top: 30px;
+    color: hsl(192, 100%, 9%);
+    margin-bottom: 30px;
+}
+
+.wrapper-btn {
+    padding: 15px 30px 15px 30px;
+    border-radius: 25px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
