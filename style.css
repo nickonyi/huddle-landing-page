@@ -82,7 +82,7 @@ body {
 /*----------------container styling---------------------------*/
 
 .container {
-    padding: 100px 50px 200px 50px;
+    padding: 100px 50px 100px 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,7 +94,9 @@ body {
 }
 
 .box {
-    border: 1px solid black;
+    border: 1px solid hsl(192, 7%, 86%);
+    border-radius: 5px;
+    box-shadow: 0 0 10px hsl(192, 7%, 86%, 0.5);
 }
 
 .container-1 {
@@ -111,6 +113,118 @@ body {
 
 .container-text-1 {
     margin-top: 20px;
+}
+
+.container-2 {
+    display: flex;
+    padding: 50px 50px 70px 85px;
+    gap: 200px;
+}
+
+.container .container-2-content {
+    align-self: center;
+}
+
+.container-2-content {
+    margin-left: 0;
+}
+
+.container-2-content-img {
+    width: 300px;
+    height: auto;
+}
+
+.container-text-2 {
+    margin-top: 20px;
+}
+
+.container-3 {
+    display: flex;
+    padding: 50px 50px 100px 110px;
+    gap: 200px;
+}
+
+.container .container-3-content {
+    align-self: center;
+}
+
+.container-3-content {
+    margin-left: 0;
+}
+
+.container-3-content-img {
+    width: 300px;
+    height: auto;
+}
+
+.container-text-3 {
+    margin-top: 20px;
+}
+
+
+/*----------------Footer card styling---------------------------*/
+
+.footer-card {
+    border: 1px solid hsl(192, 7%, 86%);
+    width: 600px;
+    position: relative;
+    top: 80px;
+    left: 300px;
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px hsl(192, 7%, 86%, 0.5);
+}
+
+.footer-card-header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    color: hsl(192, 100%, 9%);
+    font-weight: 600;
+}
+
+.footer-btn {
+    padding: 15px 30px 15px 30px;
+    border-radius: 25px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    width: 250px;
+}
+
+
+/*----------------Footer styling---------------------------*/
+
+.footer {
+    background-color: hsl(192, 100%, 9%);
+    color: #ffffff;
+    padding-top: 130px;
+}
+
+.footer-logo {
+    height: 100px;
+    margin-left: 30px;
+    width: 50px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 10px;
+}
+
+.footer-img {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(125deg) brightness(110%) contrast(102%);
+}
+
+.footer-content {
+    display: flex;
+    padding: 40px;
+    gap: 20px;
+}
+
+.footer-content>div {
+    flex: 1;
 }
 
 .attribution {
